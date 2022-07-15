@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./fonts/Norse-Bold.otf"); }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+.content {
+  min-height: 100vh;
+  display: flex; }
+
+.img-section {
+  background-position: center center;
+  background-image: url("./images/sandvide.jpg");
+  background-size: cover;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  font-family: "Norse Bold";
+  justify-content: space-between;
+  color: white;
+  text-align: center; }
+  .img-section .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .img-section .banner img {
+      height: 125px; }
+
+.main-section {
+  flex: 5; }
+  .main-section .intro {
+    padding: 70px 24px 24px; }
+  .main-section p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #271f18; }
+  .main-section .form-section {
+    margin-top: 32px;
+    padding: 24px;
+    background-color: rgba(255, 222, 190, 0.288);
+    box-shadow: 2px 3px 4px #ccc; }
+    .main-section .form-section form {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: #041f5f; }
+      .main-section .form-section form p {
+        font-size: 1rem;
+        font-weight: 400; }
+      .main-section .form-section form input {
+        border-radius: 5px;
+        border: 1px solid #271f18;
+        padding: 10px;
+        width: 300px;
+        font-size: 16px;
+        transition: all 0.2s ease;
+        margin: auto;
+        box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.15);
+        outline: none;
+        transition: 300ms all ease;
+        /*   background:rgba(0,0,0,.15); */ }
+      .main-section .form-section form input:focus {
+        box-shadow: 0 0 10px #4a90be;
+        border: 1px solid #4a90be; }
+      .main-section .form-section form .error input {
+        border: 1px solid red; }
+      .main-section .form-section form .error .error-msg {
+        color: red; }
+      .main-section .form-section form .submit-section {
+        margin-top: 24px; }
+        .main-section .form-section form .submit-section button {
+          background-color: #271f18;
+          color: #ccc;
+          font-size: 18px;
+          border-radius: 20px;
+          width: 180px;
+          padding: 15px; }
+
+/*# sourceMappingURL=style.css.map */
